@@ -1,0 +1,11 @@
+.administrationPage{
+    background-color: #E5E5E5;
+    height: 100%;
+}
+
+
+@media (max-width:768px){
+    .administrationPage footer{
+        margin-top: 35px !important
+    }
+}

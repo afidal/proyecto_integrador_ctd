@@ -1,0 +1,8 @@
+.misReservas footer{
+    margin: 0px !important;
+}
+
+.misReservas .footer-desktop-tablet{
+    position: sticky;
+    top: 100%;
+}

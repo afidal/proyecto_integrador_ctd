@@ -1,0 +1,27 @@
+.desktop-filter-container{
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-secondary);
+    height: 161px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desktop-filter-container-content{
+    min-width: 1200px;
+    
+    /* max-width:1280px ; */
+    margin: auto;
+    margin-top:auto ;
+    height: 161px;
+    margin-top: 30px;
+    /* min-width: 1140px; */
+}
+.desktop-filters-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.desktop-filters-button .search{
+    width: 45%;
+}

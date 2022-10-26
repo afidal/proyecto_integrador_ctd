@@ -1,0 +1,1038 @@
+.desktopAdministration-container {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.desktopAdministration h4 {
+    margin-left: 3px; 
+}
+
+.displayNone{
+    display: none !important;
+}
+
+.desktopAdministracion-add {
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-top: 34px;
+    padding-right: 28px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    border: 1px solid #DFE4EA;
+}
+
+.desktopAdministracion-add-name-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.desktopAdministracion-add-name {
+    width: 48%;
+}
+
+.desktopAdministracion-add-name input {
+    width: 100%;
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-category {
+    margin-left: 33px;
+    width: 48%;
+}
+
+.desktopAdministracion-add-category select {
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-category input {
+    width: 100%;
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-direccion-ciudad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.desktopAdministracion-add-direccion {
+    width: 48%;
+}
+
+.desktopAdministracion-add-direccion input {
+    width: 100%;
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-ciudad {
+    width: 48%;
+    margin-left: 33px;
+}
+
+.desktopAdministracion-add-ciudad select {
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-ciudad input {
+    width: 100%;
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-tituloDescripcion-precio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.desktopAdministracion-add-tituloDescripcion {
+    width: 48%;
+}
+
+.desktopAdministracion-add-tituloDescripcion input {
+    width: 100%;
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-precio {
+    width: 48%;
+    margin-left: 33px;
+}
+
+.desktopAdministracion-add-precio input {
+    width: 100%;
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-descripcion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 34px;
+}
+
+.desktopAdministracion-add-descripcion-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.desktopAdministracion-add-descripcion-info textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    outline: none;
+    border: 1px solid #DFE4EA;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.desktopAdministracion-add-descripcion-info input {
+    width: 100%;
+    height: 120px;
+    margin-top: 13px;
+}
+
+.desktopAdministracion-add-latitud-longitud {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.desktopAdministracion-add-latitud {
+    width: 100%;
+}
+
+.desktopAdministracion-add-latitud input {
+    margin-top: 13px;
+    width: 100%;
+}
+
+.desktopAdministracion-add-longitud {
+    width: 100%;
+    margin-left: 33px;
+}
+
+.desktopAdministracion-add-longitud input {
+    width: 100%;
+
+    margin-top: 13px;
+}
+
+
+
+
+.desktopAdministracion-add-agregarAtributo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 37px;
+}
+
+.desktopAdministracion-add-atributo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.desktopAdministracion-add-atributo-parte1y2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.desktopAdministracion-add-atributo-parte1 {
+    width: 100%
+}
+
+.desktopAdministracion-add-atributo-parte1 input {
+    width: 100%
+}
+
+.desktopAdministracion-add-atributo-parte2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 25%
+}
+
+.desktopAdministracion-add-atributo-parte2 input {
+    width: 100%
+}
+
+.desktopAdministracion-add-atributo-parte3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.desktopAdministracion-add-atributo-parte3 button {
+    width: 40px;
+    height: 40px;
+}
+
+.desktopAdministracion-add-atributo-guardado {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.desktopAdministracion-add-atributo-parte1-guardado {
+    width: 100%
+}
+
+.desktopAdministracion-add-atributo-parte1y2-guardado{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.desktopAdministracion-add-atributo-parte1-guardado input {
+    width: 100%
+}
+
+.desktopAdministracion-add-atributo-parte2-guardado {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 25%
+}
+
+.desktopAdministracion-add-atributo-parte2-guardado input {
+    width: 100%
+}
+
+.desktopAdministracion-add-atributo-parte3-guardado {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.desktopAdministracion-add-atributo-parte3-guardado button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-tertiary);
+    opacity: .6;
+    color: white ;
+    cursor: inherit ;
+}
+
+.desktopAdministracion-add-politicas {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.desktopAdministracion-politicas {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #DFE4EA;
+    padding-bottom: 20px;
+}
+
+.desktopAdministracion-politicas h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.desktopAdministracion-politicas textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    outline: none;
+    border: 1px solid #DFE4EA;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.add-politicas-normas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.add-politicas-normas h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.add-politicas-saludyseguridad {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.add-politicas-saludyseguridad h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.add-politicas-cancelacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.add-politicas-cancelacion h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.desktopAdministracion-add-cargarImagen {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 37px;
+}
+
+.desktopAdministracion-add-imagen {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.desktopAdministracion-add-imagen-parte1 {
+    width: 100%;
+}
+
+.desktopAdministracion-add-imagen-parte1 input {
+    width: 100%;
+}
+
+.desktopAdministracion-add-imagen-parte2 button {
+    width: 40px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.desktopAdminsitracion-add-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+@media (max-width:896px) {
+
+    .desktopAdministracion-politicas h4 {
+        font-size: 19px;
+    }
+}
+
+@media (max-width:860px) {
+
+    .desktopAdministracion-politicas h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:824px) {
+
+    .desktopAdministracion-politicas h4 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:788px) {
+
+    .desktopAdministracion-politicas h4 {
+        font-size: 16px;
+    }
+}
+
+/* error atributo */
+
+.desktop-errorContainerAtributo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.desktop-errorContainerAtributo p {
+    font-size: 14px;
+    color: red;
+}
+
+/* error imagen */
+
+.desktop-errorContainerImagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: -10px
+}
+
+.desktop-errorContainerImagen p {
+    font-size: 14px;
+    color: red;
+}
+
+/* estilos para atributos checkboxs */
+
+.desktopAdministracion-add-atributo-checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.desktopAdministracion-add-atributo-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.desktopAdministracion-atributos-checkboxs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.desktopAdministracion-atributos-checkboxs input {
+    box-shadow: none;
+}
+
+.desktopAdministracion-atributos-checkboxs img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.errorContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: red;
+}
+
+@media (max-width:1375px) {
+    .desktopAdministracion-add-atributo-checkbox {
+        grid-template-columns: repeat(7, 150px);
+    }
+}
+
+@media (max-width:1225px) {
+    .desktopAdministracion-add-atributo-checkbox {
+        grid-template-columns: repeat(6, 150px);
+    }
+}
+
+
+@media (max-width:1075px) {
+    .desktopAdministracion-add-atributo-checkbox {
+        grid-template-columns: repeat(5, 150px);
+    }
+}
+
+@media(max-width:925px) {
+    .desktopAdministracion-add-atributo-checkbox {
+        grid-template-columns: repeat(4, 150px);
+    }
+}
+
+
+.mobileAdministracion-add-imagen-cargada {
+    width: 100%;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: row;
+    background-color: #DFE4EA;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mobileAdministracion-add-imagen-parte1-cargada {
+    width: 100%;
+}
+
+.mobileAdministracion-add-imagen-parte2-cargada button {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: var(--color-tertiary);
+    color: white ;
+    opacity: .5;
+    cursor: inherit ;
+}
+
+.mobileAdministracion-add-imagen-parte1-cargada input {
+    width: 100%;
+}
+
+
+.mobile-add-politicas-guardado {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mobile-add-politica-parte1-guardado {
+    width: 100%;
+}
+
+.mobile-add-politica-parte1-guardado input {
+    width: 100%;
+}
+
+.mobile-add-politica-parte2-guardado button {
+    margin-top: 6px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-tertiary);
+    margin-left: 5px;
+    opacity: .5;
+}
+
+.mobile-add-politicasCancelacion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.mobile-add-politicas-cancelacion textarea {
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 5px;
+    outline: none;
+    border: 1px solid #DFE4EA;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.mobileAdministracion-add-politicaCancelacion-parte1{
+    width: 100%;
+}
+
+.mobileAdministracion-add-politicaCancelacion-parte2 button{
+    margin-top: 23px;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.mobile-add-saludSeguridad {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.mobile-add-saludSeguridad textarea {
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+    padding-left: 8px;
+    padding-top: 5px;
+    outline: none;
+    border: 1px solid #DFE4EA;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.mobileAdministracion-add-saludSeguridad-parte1{
+    width: 100%;
+}
+
+.mobileAdministracion-add-saludSeguridad-parte2 button{
+    margin-top: 23px;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.mobile-add-normaDeCasa {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+.mobile-add-normaDeCasa textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 5px;
+    outline: none;
+    border: 1px solid #DFE4EA;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.mobileAdministracion-add-normaDeCasa-parte1{
+    width: 100%;
+}
+
+.mobileAdministracion-add-normaDeCasa-parte2 button{
+    margin-top: 23px;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+@media(max-width:768px) {
+    .desktopAdministracion-add-name-category {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-name {
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-name input {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-category {
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-category select {
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-category input {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-direccion-ciudad {
+        flex-direction: column;
+    }
+
+
+    .desktopAdministracion-add-direccion {
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-direccion input {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-ciudad {
+        margin-top: 25px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .desktopAdministracion-add-ciudad select {
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-ciudad input {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-tituloDescripcion-precio {
+        flex-direction: column-reverse;
+    }
+
+
+    .desktopAdministracion-add-tituloDescripcion {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .desktopAdministracion-add-tituloDescripcion input {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-precio {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .desktopAdministracion-add-precio input {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-latitud-longitud {
+        flex-direction: column;
+    }
+
+
+    .desktopAdministracion-add-latitud {
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-latitud input {
+        margin-top: 13px;
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-longitud {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .desktopAdministracion-add-longitud input {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .desktopAdministracion-add-atributo-parte1y2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-atributo-parte1y2-guardado{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-atributo-parte2-guardado{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .desktopAdministracion-add-atributo {
+        flex-direction: row;
+    }
+
+    .desktopAdministracion-add-atributo-parte2 {
+        margin-top: 15px;
+        width: 100%
+    }
+
+    .desktopAdministracion-add-atributo-parte3-guardado{        
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 10px;
+        align-items: center;
+    }
+
+    .desktopAdministracion-add-atributo-parte3 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 10px;
+        align-items: center;
+    }
+
+    .desktopAdministracion-politicas {
+        flex-direction: column;
+    }
+
+    .desktopAdministracion-politicas textarea {
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 8px;
+        padding-top: 5px;
+        outline: none;
+        border: 1px solid #DFE4EA;
+        border-radius: 8px;
+        font-size: 12px;
+        height: 133px;
+    }
+
+    .add-politicas-normas {
+        width: 90%;
+    }
+
+    .add-politicas-saludyseguridad {
+        width: 90%;
+    }
+
+    .add-politicas-cancelacion {
+        width: 90%;
+    }
+
+    .desktopAdministracion-atributos-checkboxs {
+        width: 50%;
+    }
+
+    .desktopAdministracion-politicas h4 {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1000px){
+    .mobile-add-politicasCancelacion{
+        flex-direction: column;
+    }
+
+    .mobileAdministracion-add-politicaCancelacion-parte2 {
+        width: 100%;
+    }
+
+    .mobileAdministracion-add-politicaCancelacion-parte2 button{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-add-normaDeCasa {
+        flex-direction: column;
+    }
+
+    .mobileAdministracion-add-normaDeCasa-parte2 {
+        width: 100%;
+    }
+
+    .mobileAdministracion-add-normaDeCasa-parte2 button{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-add-saludSeguridad {
+        flex-direction: column;
+    }
+
+    .mobileAdministracion-add-saludSeguridad-parte2{
+        width: 100%;
+    }
+
+    .mobileAdministracion-add-saludSeguridad-parte2 button{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:460px) {
+    .mobile-add-politicasCancelacion{
+        flex-direction: column;
+    }
+
+    .mobileAdministracion-add-politicaCancelacion-parte2 {
+        width: 100%;
+    }
+
+    .mobileAdministracion-add-politicaCancelacion-parte2 button{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-add-normaDeCasa {
+        flex-direction: column;
+    }
+
+    .mobileAdministracion-add-normaDeCasa-parte2 {
+        width: 100%;
+    }
+
+    .mobileAdministracion-add-normaDeCasa-parte2 button{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-add-saludSeguridad {
+        flex-direction: column;
+    }
+
+    .mobileAdministracion-add-saludSeguridad-parte2{
+        width: 100%;
+    }
+
+    .mobileAdministracion-add-saludSeguridad-parte2 button{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .desktopAdministracion-atributos-checkboxs {
+        width: 100%;
+    }
+
+    .desktopAdministracion-add-atributo-checkbox {
+        width: 90%;
+    }
+
+}

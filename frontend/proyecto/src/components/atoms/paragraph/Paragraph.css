@@ -1,0 +1,32 @@
+.paragraph {
+    font-family: Poppins;
+}
+.paragraph-size-sm{
+    font-size:12px;
+}
+
+.paragraph-size-md{
+    font-size:14px;
+}
+.paragraph-size-xmd{
+    font-size:16px;
+}
+.paragraph-size-lg{
+    font-size: 20px;
+}
+.paragraph-colors-base{
+    color: var(--color-base);
+}
+.paragraph-colors-secondary {
+    color: var(--color-secondary);
+}
+
+.paragraph-colors-tertiary {
+    color: var(--color-tertiary);
+}
+.paragraph-colors-error{
+    color: var(--color-error) ;
+}
+.is-light{
+    font-weight: 500;
+}

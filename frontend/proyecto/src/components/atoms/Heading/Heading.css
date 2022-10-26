@@ -1,0 +1,40 @@
+.heading{
+    color: var(--color-tertiary) ;
+    line-height: 23.44px;
+    letter-spacing: 0.4px;
+    
+}
+.color-base{
+    color: var(--color-base);
+}
+.color-primary{
+    color: var(--color-primary);
+}
+.color-secondary{
+    color:var(--color-secondary);
+}
+.color-tertiary{
+    color:var(--color-tertiary);
+}
+
+.size-xs{
+    font-size:14px;
+    
+}
+.size-sm{
+    font-size:16px;
+    
+}
+.size-md{
+    font-size: 20px;
+    
+}
+.size-lg{
+    font-size: 24px;
+    
+}
+.size-xl{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 31.16px;
+}

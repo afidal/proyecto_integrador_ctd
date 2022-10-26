@@ -1,0 +1,87 @@
+.reserveCalendar-container{
+     width: 100%;
+    height: 297px;
+    background: #FFFFFF;
+/* sombra card */
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.reserveCalendar-container .react-datepicker__month-container:nth-child(3) {
+    border-left: 1px solid var(--color-primary);
+    padding-left: 10px;
+    
+}
+.reserveCalendar-container .react-datepicker__day-name,
+.reserveCalendar-container .react-datepicker__day,
+.reserveCalendar-container .react-datepicker__time-name {
+    display: inline-block;
+    width: 3.7vw;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0.166rem;
+}
+.reserveCalendar-container .react-datepicker{
+    border-top: none !important;
+    border-bottom: none !important;
+    border: none !important;
+    display: grid;
+    grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
+}
+
+.reserveCalendar-container .react-datepicker__month-container{
+        margin-left: 15px;
+        margin-top: 15px;
+}
+@media (max-width:1365px){
+    .reserveCalendar-container .react-datepicker__day-name,
+.reserveCalendar-container .react-datepicker__day,
+.reserveCalendar-container .react-datepicker__time-name {
+    width: 5.1vw;
+}
+.react-datepicker__header:not(.react-datepicker__header--has-time-select){
+    max-width: 100%;
+}
+.reserveCalendar-container .react-datepicker__month-container{
+        margin-left: 45px;
+        margin-top: 15px;
+}
+ .reserveCalendar-container .react-datepicker__month-container:nth-child(3) {
+    
+    margin-left: 18px;
+ }
+
+}
+@media (max-width:1000px){
+    .reserveCalendar-container .react-datepicker__month-container{
+        margin-left: 15px;
+    }
+    .reserveCalendar-container .react-datepicker__month-container:nth-child(3) {
+    
+    margin-left: 23px;
+    
+}
+.reserveCalendar-container .react-datepicker__month-container:nth-child(3) {
+    
+    margin-left: 13px;
+ }
+}
+@media (max-width:768px){
+    .reserveCalendar-container .react-datepicker__day-name,
+.reserveCalendar-container .react-datepicker__day,
+.reserveCalendar-container .react-datepicker__time-name {
+    width: 11vw;
+}
+.reserveCalendar-container .react-datepicker__month-container{
+        margin-left: 10px;
+    }
+    .react-datepicker__month-container:nth-child(3) {
+        display: none;
+    }
+}
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected{
+    border-radius: 10% !important;
+}
+.react-datepicker__day--in-range{
+    border-radius: 10% !important;
+}

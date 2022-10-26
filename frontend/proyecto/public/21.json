@@ -1,0 +1,59 @@
+{
+  "titulo": "Caminos del Vino Apartments",
+  "titulo_descripcion": "El lugar ideal desde donde recorrer los viñedos mendocinos.",
+  "descripcion": "Este alojamiento ofrece wifi gratis, zona de parrilla y estacionamiento privado gratuito.\nTodos los alojamientos cuentan con zona de estar, TV de pantalla plana con canales por cable y baño privado con secador de pelo, bidet y ducha. \nLa cocina está equipada con microondas, heladera, fogones y hervidor de agua.\nEl departamento se encuentra a 6 km del parque O'Higgins y de la plaza Independencia.\nEl aeropuerto internacional Gobernador Francisco Gabrielli es el más cercano y queda a 8 km del Caminos del Vino Apartments.",
+  "puntaje": 9,
+  "direccion": "Federico Froebel, 3494",
+  "latitud": -32.899542247710954,
+  "longitud": -68.79598723862989,
+  "politicaListDTO": [
+    { "descripcion": "Check-in: 15:30", "tipo_politica_id": 1 },
+    { "descripcion": "Check-out: 11:00", "tipo_politica_id": 1 },
+    {
+      "descripcion": "Se requiere utilizar barbijo en ascensores y areas comunes",
+      "tipo_politica_id": 2
+    },
+    {
+      "descripcion": "No se permite fumar en el departamento",
+      "tipo_politica_id": 1
+    },
+    { "descripcion": "No se permiten mascotas", "tipo_politica_id": 1 },
+    { "descripcion": "No reembolsable", "tipo_politica_id": 3 }
+  ],
+  "categoria_id": 3,
+  "ciudad_id": 3,
+  "reservaDTOList": [
+    { "fechaInicioReserva": "2022-06-14", "fechaFinReserva": "2022-06-20" },
+    { "fechaInicioReserva": "2022-06-29", "fechaFinReserva": "2022-07-08" },
+    { "fechaInicioReserva": "2022-07-10", "fechaFinReserva": "2022-07-20" }
+  ],
+  "imagenDTOList": [
+    {
+      "url_img_producto": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/363306309.jpg?k=9942f356706fcbb27fa04f4761b26ce3a46c88102bb21f4cdfaff16d6b4da084&o=&hp=1",
+      "titulo_img_producto": "Caminos del Vino Apartments Portada"
+    },
+    {
+      "url_img_producto": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/363079703.jpg?k=5169ec3124eb73d437974df956d6a5cf5efdd38e8598b3c1ee40f9d3df9a7e53&o=&hp=1",
+      "titulo_img_producto": "Caminos del Vino Apartments Estar"
+    },
+    {
+      "url_img_producto": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/363079702.jpg?k=fdeb8fdd4e3ce539a98f3940d9d7df9696a26aebcb1124276a5ff6352663386c&o=&hp=1",
+      "titulo_img_producto": "Caminos del Vino Apartments Habitación"
+    },
+    {
+      "url_img_producto": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/363079704.jpg?k=dd0cbcde36b7ccea601c4a9163d7c36af36f30d9b87407a1f5eeacb7e3680df9&o=&hp=1",
+      "titulo_img_producto": "Caminos del Vino Apartments Zona de Parilla"
+    },
+    {
+      "url_img_producto": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/363079692.jpg?k=5fe137fa848afd540e54d41ac04fb3f7439beb669312f6a78ed36192b00e39be&o=&hp=1",
+      "titulo_img_producto": "Caminos del Vino Apartments Baño"
+    }
+  ],
+  "caracteristicasDTOList": [
+    { "titulo": "Cocina", "nombre_icono": "kitchen" },
+    { "titulo": "Wifi", "nombre_icono": "wifi" },
+    { "titulo": "Ascensores", "nombre_icono": "lift" },
+    { "titulo": "TV por Cable", "nombre_icono": "television" },
+    { "titulo": "Aire Acondicionado", "nombre_icono": "airConditioner" }
+  ]
+}

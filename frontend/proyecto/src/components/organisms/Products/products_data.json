@@ -1,0 +1,58 @@
+[
+   {
+    "Crimg": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740",
+    "Category": "Hoteles",
+    "Title": "La Esmeralda", 
+    "Location": "Buenos Aires",
+    "Description": "Amplias, cómodas y aireadas, de 32 mts2, con 2 camas Queen matrimoniales o Cama King más puerta ventana balcón corrediza hermético. "
+   },
+   {
+    "Crimg": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740",
+    "Category": "Hoteles",
+    "Title": " NH Rosario ", 
+    "Location": "Rosario",
+    "Description": "Amplias, cómodas y aireadas, de 32 mts2, con 2 camas Queen matrimoniales o Cama King más puerta ventana balcón corrediza hermético. "
+   },
+   {
+    "Crimg": "https://images.unsplash.com/photo-1629794226066-349748040fb7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770",
+    "Category": "Hostels",
+    "Title": "Backpacker's Place", 
+    "Location": "Mar del Plata",
+    "Description": "Amplias, cómodas y aireadas, de 32 mts2, con 2 camas Queen matrimoniales o Cama King más puerta ventana balcón corrediza hermético. "
+   },
+   {
+    "Crimg": "https://images.unsplash.com/photo-1623625434462-e5e42318ae49?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771",
+    "Category": "Hostels",
+    "Title": "Rosario Club", 
+    "Location": "Rosario",
+    "Description": "Amplias, cómodas y aireadas, de 32 mts2, con 2 camas Queen matrimoniales o Cama King más puerta ventana balcón corrediza hermético. "
+   },
+   {
+    "Crimg": "https://images.unsplash.com/photo-1612152605347-f93296cb657d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740",
+    "Category": "Bed & Breakfast",
+    "Title": "Rosedal", 
+    "Location": "Buenos Aires",
+    "Description": "Amplias, cómodas y aireadas, de 32 mts2, con 2 camas Queen matrimoniales o Cama King más puerta ventana balcón corrediza hermético. "
+   },
+   {
+    "Crimg": "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740",
+    "Category": "Bed & Breakfast",
+    "Title": "La Casa de Juana", 
+    "Location": "Mendoza",
+    "Description": "Amplias, cómodas y aireadas, de 32 mts2, con 2 camas Queen matrimoniales o Cama King más puerta ventana balcón corrediza hermético. "
+   },
+   {
+    "Crimg": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770",
+    "Category": "Departmentos",
+    "Title": "Pza. San Martín", 
+    "Location": "Cordoba",
+    "Description": "Amplias, cómodas y aireadas, de 32 mts2, con 2 camas Queen matrimoniales o Cama King más puerta ventana balcón corrediza hermético. "
+   },
+   {
+    "Crimg": "https://images.unsplash.com/photo-1613575831056-0acd5da8f085?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770",
+    "Category": "Departamentos",
+    "Title": "Junin y Callao", 
+    "Location": "Buenos Aires",
+    "Description": "Amplias, cómodas y aireadas, de 32 mts2, con 2 camas Queen matrimoniales o Cama King más puerta ventana balcón corrediza hermético. "
+   }
+]

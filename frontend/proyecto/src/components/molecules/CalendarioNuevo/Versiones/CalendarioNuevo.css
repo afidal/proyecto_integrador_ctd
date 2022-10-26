@@ -1,0 +1,102 @@
+.calendarioTODO{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 350px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px;
+}
+
+.body .day-names .week{
+    position: relative;
+    width: calc(100% / 7);
+    height: 44px;
+    display: inline-block;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.calendarioPrimero{
+    width: 350px;
+}
+
+.calendarioTODO .flecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendarioTODO .flecha .flecha-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-primary);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.calendarioPrimero .header .month{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.calendarioPrimero .calendarioPrimero-day{
+    position: relative;
+    width: calc(100% / 7);
+    height: 44px;
+    display: inline-block;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendarioPrimero-day .selected{
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.calendarioPrimero-day .before{
+    cursor: pointer;
+    color: rgb(212, 212, 212);
+}
+
+
+.calendarioPrimero-day .today{
+    cursor: pointer;
+    color: white;
+    background-color: var(--color-tertiary);
+}
+
+.lineaMedio{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.lineaDelMedio{
+    background-color: gray;
+    width: 1px;
+    height: 250px;
+}

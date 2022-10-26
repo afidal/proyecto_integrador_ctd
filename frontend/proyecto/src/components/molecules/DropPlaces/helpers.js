@@ -1,0 +1,1 @@
+export const getSize=(select,icon)=>`${select+icon+11}px`

@@ -1,0 +1,60 @@
+.mobile-calendarReserve{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.mobile-calendarReact-padre{
+    width: 100%;
+   
+}
+
+.mobile-calendarReact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.mobile-start-booking{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 0%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 10px;
+}
+
+
+.mobile-nextButton{
+    visibility: visible !important;
+}
+
+.start-booking-container button{
+    margin-top: 9px;
+    width: 100%;
+}
+.mobile-calendar-heading{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+ /* .mobile-calendarReact .reserveCalendar-container .react-datepicker__day-name,
+ .mobile-calendarReact .reserveCalendar-container .react-datepicker__day,
+.mobile-calendarReact .reserveCalendar-container .react-datepicker__time-name {
+    border-radius: 10px;
+    width: 11vw !important;
+} */
+ .mobile-calendarReserve .react-datepicker__day-name,
+.mobile-calendarReserve .react-datepicker__day,
+.mobile-calendarReserve .react-datepicker__time-name {
+    width: 10vw !important;
+}

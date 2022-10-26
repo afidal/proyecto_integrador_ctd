@@ -1,0 +1,50 @@
+.header-desktop{
+    width: 100%;
+    margin: auto;
+    background-color: var(--color-base);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    z-index: 10000;
+    top:0;
+    position: sticky;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Poppins';
+    
+    
+}
+.header-desktop-content{
+    height: 100px;
+    width: 97%;
+    /* max-width: 1366px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* min-width: 1340px; */
+}
+.logo{
+    display: flex;
+    /* margin-left: 40px; */
+    align-items: center;
+    
+}
+.logo h2{
+    /* margin-top: 20px; */
+    margin-left: 12px;
+}
+.desktop-botones-header{
+    display: flex;
+    /* margin-right: 40px; */
+}
+.desktop-botones-header button{
+    margin-left: 10px;
+}
+.botones-header button{
+    margin-left: 10px;
+}
+
+.header-links-administracion{
+    margin-right: 15px;
+}

@@ -1,0 +1,31 @@
+[
+{
+	 
+	 "id": 1,
+	 "titulo": "Hoteles",
+	 "descripcion": "800",
+	 "URL_imagen": "https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374"
+},
+
+{
+	 
+	 "id": 2,
+	 "titulo": "Hostels",
+	 "descripcion": "800",
+	 "URL_imagen": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469"
+},
+
+{
+	 "id": 3,
+	 "titulo": "Departamentos",
+	 "descripcion": "800",
+	 "URL_imagen": "https://images.unsplash.com/photo-1484154218962-a197022b5858?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474"
+},
+
+{
+	 "id": 4,
+	 "titulo": "Bed & Breakfast",
+	 "descripcion": "800",
+	 "URL_imagen": "https://images.unsplash.com/photo-1593604341107-12f3981d929b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470"
+}
+]

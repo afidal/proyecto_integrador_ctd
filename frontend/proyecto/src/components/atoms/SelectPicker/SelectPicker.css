@@ -1,0 +1,30 @@
+.selectPicker{
+    max-width: 500px;
+}
+.selectPicker select{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color:var(--color-base);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    border:none;
+    outline: none;
+}
+.options{
+    
+    cursor: pointer;
+    width: 300px;
+    min-height: 60px;
+    max-height: 300px;
+    border-radius: 15px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 2px 4px 8px #c5c5c5;
+    transition: all 300ms;
+
+}
+.option:hover {
+    background-color: brown;
+    color: white;
+}

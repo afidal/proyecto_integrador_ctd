@@ -1,0 +1,25 @@
+.cbu{
+    width: 90%;
+    margin: auto;
+    margin-top:45px ;
+}
+.cbu-content{
+    margin-top: 25px;
+}
+.cbu-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.cbu-nav button{
+    width: 45%;
+
+}
+.qr{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cbu hr{
+    margin-bottom: 0px;
+}

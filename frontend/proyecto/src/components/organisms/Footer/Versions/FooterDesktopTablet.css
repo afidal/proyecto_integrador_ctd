@@ -1,0 +1,29 @@
+.footer-desktop-tablet{
+    
+    /* margin-top: 20px; */
+    width: 100%;
+    background-color: var(--color-primary);
+    height: 58px;
+    display: flex;
+    
+    align-self: flex-end;
+    
+}
+.footer-desktop-tablet-content{
+    
+    height: 100%;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+
+}
+.footer-desktop-tablet-icons{
+    display: flex;
+    align-items: center;
+}
+.footer-desktop-tablet-icons img{
+    margin-left: 30px;
+}

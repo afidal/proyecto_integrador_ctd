@@ -1,0 +1,49 @@
+.location-info{
+    
+    width: 100%;
+    background-color: #EBEBEE;
+    display: flex;
+    align-items: center;
+}
+.location-info-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.location-info-location{
+    display: flex;
+    width: 50%;
+}
+.location-info-rating{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.rating-stars{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rating-stars p{
+    align-self: center;
+    margin-top: 3px;
+}
+
+
+
+
+.stars-container{
+    display: flex;
+    margin-top: 2px;
+}
+
+@media (min-width:768px) {
+    .location-info-container{
+        width: 97%;
+    }
+}

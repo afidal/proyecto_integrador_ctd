@@ -1,0 +1,17 @@
+.footer-mobile{
+    margin-top: 25px;
+    width: 100%;
+    background-color: var(--color-primary);
+    height: 58px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.footer-mobile-content{
+    height: 58px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}

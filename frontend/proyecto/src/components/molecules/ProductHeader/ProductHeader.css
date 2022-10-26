@@ -1,0 +1,24 @@
+
+.product-header{
+    width: 100%;
+    background-color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+}
+.product-header-container{
+    width: 97%;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-title{
+    /* padding-left: 5px; */
+}
+@media (min-width:768px) {
+    .product-header-container{
+        /* width: 95%; */
+    }
+}

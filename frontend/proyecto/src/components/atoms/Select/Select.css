@@ -1,0 +1,44 @@
+.select{
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color:#fff ;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    border:none;
+    outline: none;
+}
+.type-base{
+    height:none;
+    padding-left:none;
+    border-radius:none;
+    background-color:none ;
+    box-shadow: none;
+}
+.type-primary{
+    
+    color: #383B58 ;
+}
+
+
+.select-size-base{
+    width: 213.7px;
+}
+.select-size-xs{
+    width: 254px;
+}
+.select-size-sm{
+    width:300px;
+}
+.select-size-md{
+    width:346px;
+}
+.select-size-lg{
+    width:393px;
+}
+.select-size-xl{
+    width:422px;
+}
+.select-size-2xl{
+    width: 448px;
+}

@@ -1,0 +1,255 @@
+.card-product-reserves {
+    width: 100%;
+    height: 320px;
+    border: 1px solid #f3f1ed;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-base);
+   
+}
+
+.card-product-reserves-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-product-reserves-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.card-product-reserves-text .cardProductReserve-button {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    
+}
+.card-product-reserves-text .cardProductReserve-button button{
+    width: 95%;
+}
+.card-product-reserves-text-primeraParte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.card-product-reserves-primerParte-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.card-product-reserves-primerParte-1 .product-rating-reserve {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card-product-reserves-primerParte-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.card-product-reserves-primerParte-2 h3 {
+    width: 79%;
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.card-product-reserves-primerParte-2 .product-location-reserve {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-product-reserves-primerParte-2 .product-location-reserve img {
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.checkInCheckOut-product-reserve {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.checkIn-product-reserve {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.checkIn-product-reserve h4 {
+    text-decoration: underline black;
+    font-size: 18px;
+}
+
+.checkIn-product-reserve h6 {
+    margin-top: 2px
+}
+
+.checkInCheckOut-product-reserve hr{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px;
+    border-top: 1px solid #e5e5ea;
+    border-top: 1px solid var(--rs-border-primary);
+}
+
+.checkOut-product-reserve {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.checkOut-product-reserve h4 {
+    text-decoration: underline black;
+    font-size: 18px;
+}
+
+.checkOut-product-reserve h6 {
+
+    margin-top: 2px
+}
+
+
+
+
+
+.leaveAnOpinion-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 53px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EBEBEE;
+}
+
+.leaveAnOpinion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.leaveAnOpinion h2 {
+    color: black;
+}
+
+.leaveAnOpinion-container .opinionsStars {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.precioReserve-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 53px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EBEBEE;
+}
+
+.precioReserve-container h2 {
+    color: black;
+}
+
+
+.leaveAnOpinion-container .opinionsStars img:hover {
+    background-color: var(--color-primary);
+}
+
+@media (max-width: 866px) {
+    .card-product-reserves {
+        height: 330px
+    }
+}
+
+@media (max-width: 767px) {
+    .card-product-reserves {
+        width: 450px;
+        height: 650px;
+        flex-direction: column;
+    }
+
+    .leaveAnOpinion-container {
+        margin-top: 10px;
+    }
+
+    .button-container-reserves {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 465px) {
+    .leaveAnOpinion-container,.precioReserve-container{
+        margin-bottom: 40px;
+    }
+    .card-product-reserves {
+        width: 365px;
+        height: auto;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 370px) {
+    .card-product-reserves {
+        width: 300px;
+    }
+}

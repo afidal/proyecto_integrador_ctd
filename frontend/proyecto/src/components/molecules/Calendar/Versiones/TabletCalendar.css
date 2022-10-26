@@ -1,0 +1,104 @@
+.tablet-calendarPadre {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: var(--color-secondary);
+}
+
+.tablet-calendar-reserva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.tablet-reserva{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tablet-reserva-heading {
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+.tablet-calendario {
+    width: 100%;
+    padding-top: 0px;
+    height: 400px;
+}
+
+.tablet-reserva-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.tablet-reserva-button button {
+    width: 100%;
+}
+
+.tablet-calendario .rs-picker-toggle {
+    width: 90%;
+    display: none;
+}
+
+
+@media (max-width: 1365px) {
+    .animation-tablet-CalendarProduct {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: none;
+        
+    }
+    .animation-tablet-font{
+        font-size: 20px;
+    }
+}
+
+/* .rs-picker{
+    width: 0px;
+    height: 0px;
+    margin-bottom: 275px;
+    margin-left: 45px;
+}
+.rs-anim-fade{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+    box-shadow: 2px 3px 2px 2px;
+}
+
+.rs-calendar-header-forward{
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.rs-calendar-header-backward{
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+
+.rs-btn-primary{
+    background-color: var(--color-primary) !important;
+}
+*/

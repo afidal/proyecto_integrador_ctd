@@ -1,0 +1,65 @@
+.input-icon{
+    border-radius: 5px;
+    background-color:var(--color-base) ;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    width: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+       
+}
+
+
+
+
+.inputIcon-size-base{
+    width: 213.7px;
+}
+.inputIcon-size-xs{
+    width: 254px;
+}
+.inputIcon-size-sm{
+    width:300px;
+}
+.inputIcon-size-md{
+    width:346px;
+}
+.inputIcon-size-lg{
+    width:393px;
+}
+.inputIcon-size-xl{
+    width:422px;
+}
+.inputIcon-size-2xl{
+    width: 448px;
+}
+
+
+
+.input-icon  input{
+    width: 100%;
+    border-top-left-radius:10px none ;
+}
+
+.type-left div{
+    position: absolute;
+    left: 11px;
+    top:6px;
+    bottom: 8px;
+}
+.type-left input{
+    padding-left: 35px;
+}
+.type-right div{
+    position: absolute;
+    right: 11px;
+    top:6px;
+    bottom: 8px;
+    
+}
+
+.type-right input{
+    padding-left: 10px;
+}

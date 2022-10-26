@@ -1,0 +1,20 @@
+.avatar{
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+.avatar h2{
+    padding: 5px;
+    color: var(--color-base);
+}
+.background-primary{
+    background: var(--color-primary);
+}
+.background-secondary{
+    background-color: var(--color-secondary);
+}

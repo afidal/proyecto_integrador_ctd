@@ -1,0 +1,14 @@
+.mobileCalendar-Container{
+    height: 100%;
+    background-color: var(--color-secondary);
+    margin-bottom: -20px;
+}
+
+.mobile-calendar-heading{
+    padding: 10px;
+}
+@media(max-width:768px){
+    .react-datepicker .mobile-calendarReact:nth-child(3){
+        display: none;
+    }
+}

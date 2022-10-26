@@ -1,0 +1,22 @@
+.span-colors-primary {
+    color: var(--color-primary);
+}
+
+.span-colors-grey {
+    color: var(--color-tertiary);
+}
+.span-colors-white {
+    color: var(--color-based);
+}
+
+.span {
+    font-family: Poppins;
+    
+}
+.span-size-sm{
+    font-size:12px;
+}
+
+.span-size-md{
+    font-size:14px;
+}

@@ -1,0 +1,80 @@
+.reserveDetail{
+    background: #FFFFFF;
+/* A- DB COLOR 4 */
+
+border: 1px solid #DFE4EA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+height: 96%;
+position: relative;
+}
+.reserveDetail .desktop-reserve-submit-button button{
+    margin: auto;
+    width: 90%;
+    
+    position: absolute;
+    bottom: 109px;
+    left: 5%;
+}
+.reserveDetail button{
+    width: 100%;
+}
+.reserveDetail-container{
+    width: 90%;
+    margin: auto;
+}
+.reserveDetail-image-product{
+    width: 100%;
+    height: 300px;
+    /* background-color: gray; */
+}
+.reserveDetail-stars{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.reserveDetail-location{
+    display: flex;
+    align-items: center;
+
+}
+.reserveDetail-location img{
+    margin-right: 8px;
+}
+
+.check-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.date-skeleton  {
+    width: 8px;
+    border-bottom: 1px solid var(--color-secondary);
+    color: white;
+    user-select: none;
+}
+.check-date p::after{
+    content:" *";
+    color:red;
+}
+.warning-unfilled-data,.warning-server-failed,.warning-dateRange{
+    text-align: center;
+    position: absolute;
+    bottom: 170px;
+    left: 50%;
+    width: 30vw;
+    transform: translate(-50%, -50%);
+}
+.desktopDetail-price{
+    background-color: #DFE4EA;
+    height: 80px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    text-align:center;
+    border-radius:8px
+}
+.reserveDetail hr{
+    color: gray !important;
+}

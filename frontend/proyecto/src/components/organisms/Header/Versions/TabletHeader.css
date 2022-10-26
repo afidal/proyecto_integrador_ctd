@@ -1,0 +1,76 @@
+.header-tablet{
+    width: 100%;
+    margin: auto;
+    background-color: var(--color-base);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    z-index: 10000;
+    top:0;
+    position: sticky;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Poppins';
+}
+
+.header-tablet-content{
+    height: 100px;
+    width: 95%;
+    /* max-width: 1366px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* min-width: 1340px; */
+}
+.botones-header{
+    display: flex;
+    /* margin-right: 32px; */
+}
+.header-tablet img{
+    /* margin-left: 30px; */
+}
+.tablet-user-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* margin-right: 15px; */
+    
+    justify-content: space-between;
+    
+}
+.header-links{
+    height: 100%;
+    width: 120px;
+    text-align: center;
+    /* border-right: 2px solid var(--color-primary); */
+    /* padding-right: 15px; */
+    padding-right: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header-links p:hover{
+    color: var(--color-tertiary);
+    
+}
+.header-links a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.tablet-user-info .header-links p{
+    height: 100%;
+}
+
+.tablet-user-info img{
+    margin-left:8px ;
+}
+.tablet-user-info h3{
+    margin-left: 10px;
+}
+.avatar-name{
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+}

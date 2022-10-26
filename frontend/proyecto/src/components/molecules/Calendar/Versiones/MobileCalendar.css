@@ -1,0 +1,52 @@
+.mobile-calendarPadre {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: var(--color-secondary);
+}
+
+.mobile-calendar-reserva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.mobile-reserva-heading {
+    display: flex;
+    text-align: left;
+    padding: 10px;
+}
+
+.mobile-calendario {
+    width: 84%;
+    padding-top: 350px;
+}
+
+.mobile-reserva-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile-reserva-button button {
+    width: 98%;
+}
+
+.mobile-calendar-reserva .mobile-calendario .rs-picker-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .animation-mobile-CalendarProduct {
+        width: 79%;
+        
+    }
+    .animation-mobile-font{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,26 @@
+.product-cards-container-reserves {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+@media (max-width:1200px) {
+    .product-cards-container-reserves {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

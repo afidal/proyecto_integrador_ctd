@@ -1,0 +1,9 @@
+.cripto-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.cripto-nav button{
+    width: 45%;
+    
+}

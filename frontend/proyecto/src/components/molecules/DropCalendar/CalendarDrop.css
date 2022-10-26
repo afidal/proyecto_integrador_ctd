@@ -1,0 +1,168 @@
+.calendarioDiv {
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.rs-calendar-header-forward{
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.rs-calendar-header-backward{
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+} 
+
+.rs-calendar-header-backward::before{
+    background-color: var(--color-primary);
+}
+
+.rs-picker {
+    width: 100%;
+}
+
+.rs-picker-toggle-active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.rs-picker-toggle-clean {
+    margin-top: 2px;
+}
+
+div .rs-picker-toggle {
+    border: none !important;
+    padding-top: 10px !important;
+}
+
+.rs-calendar-table-cell .rs-calendar-table-cell-in-range ::before {
+
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.primerCalendario:focus {
+    outline: 0;
+}
+
+.rs-picker-toolbar-ranges {
+    display: none;
+}
+
+div .primerCalendario {
+    display: flex;
+    border: none;
+}
+
+.rs-picker-daterange-header {
+    display: none;
+}
+
+.rs-picker-toggle-caret {
+    display: none;
+}
+
+.rs-picker-toolbar-right {
+    display: flex;
+    justify-content: center;
+}
+
+.rs-picker-toggle {
+    width: 422px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rs-calendar-table-cell-selected .rs-calendar-table-cell-content {
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
+
+
+.rs-btn-primary {
+    background-color: var(--color-primary);
+    width: 206px;
+    height: 40px;
+}
+
+.rs-btn-primary:hover{
+    background-color: none;
+}
+
+.rs-calendar-table-cell-content:hover {
+    border-radius: 50%;
+}
+
+.rs-btn-primary.rs-btn-disabled,
+.rs-btn-primary:disabled {
+    background-color: var(--color-primary);
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+    color: black;
+}
+
+div[role=combobox] input:visited {
+    border: none;
+}
+
+@media (max-width:1365px) {
+    .rs-picker-toggle {
+        /* width: 254px; */
+        width: 200px;
+    }
+
+    .rs-picker-toolbar {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .rs-btn-primary {
+        width: 326.22px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .rs-picker-toggle {
+        width: 393.7px;
+    }
+
+    .rs-picker-daterange-menu .rs-picker-daterange-panel-show-one-calendar .rs-picker-toolbar {
+        max-width: none;
+    }
+
+    .rs-anim-fade {
+        width: 393.7px;
+    }
+
+    .rs-btn-primary {
+        width: 300px;
+    }
+
+    div[role=combobox] {
+        width: 100%;
+    }
+}
+
+.rs-btn-primary{
+    background-color: var(--color-primary) !important;
+}
+
+.rs-calendar-header-title button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

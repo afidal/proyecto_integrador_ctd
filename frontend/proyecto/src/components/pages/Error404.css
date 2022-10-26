@@ -1,0 +1,63 @@
+.error404-container{
+    height: 100vh;
+    background-color:#EBEBEE;
+}
+
+.error404-container footer {
+    margin-top: 0px;
+    position: sticky;
+    top: 100%;
+}
+
+.error404-primeraParte-mobile {
+    display: none;
+}
+
+.error404-segundaParte .error404-perdon h1 {
+    color: black;
+}
+
+.error404 {
+    background-color: #EBEBEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.error404-img {
+    width: 100%;
+    height: 100%;
+}
+
+.error404-img img {
+    width: 100%;
+    height: 476px;
+}
+
+.error404-perdon {
+    margin-bottom: 6px;
+}
+
+@media (max-width:768px) {
+    .error404 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .error404-segundaParte .error404-perdon h1 {
+        display: none;
+    }
+
+    .error404-primeraParte-mobile {
+        display: flex;
+        margin-bottom: 6px;
+    }
+
+    .error404-primeraParte-mobile .error404-mobile-h1 {
+        color: black;
+    }
+}

@@ -1,0 +1,36 @@
+.successMesaggeAdd {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 40vw;
+    background: #FFFFFF;
+    /* A- DB COLOR 4 */
+
+    border: 1px solid #DFE4EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 8px 8px;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.successMesaggeAdd button {
+    max-width: 80%;
+}
+
+@media (max-width:768px) {
+    .successMesaggeAdd {
+        width: 90vw;
+        height: 300px;
+    }
+
+
+}
